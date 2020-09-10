@@ -188,7 +188,7 @@ public class Metodos {
 	
 	public void LinuxNome(String nome){
 		
-		String shellNome = "kill -9 ";
+		String shellNome = "pkill ";
 		String Nome = ("");
 		StringBuffer buffer = new StringBuffer();
 		try {
